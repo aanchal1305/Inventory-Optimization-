@@ -1,2 +1,11 @@
 # Inventory-Optimization-
-A collection of advanced SQL queries analyzing retail inventory patterns across time, region, and conditions. Includes dynamic metrics like reorder points, demand trends, and product movement classifications. 
+A collection of advanced SQL queries analyzing retail inventory patterns across time, region, and conditions. 
+This project uses advanced SQL analytics to identify and resolve inventory inefficiencies for a retail business. Leveraging over 100,000 daily records, the solution classifies fast- vs slow-moving products, estimates reorder points, forecasts demand trends based on seasonality and weather, and highlights potential stockouts.
+
+Key Features:
+1) Product turnover analysis using RANK() and CASE
+2) Reorder point & safety stock estimation with AVG(), STDDEV(), and LAG()
+3) Monthly and bi-annual inventory insights
+4) Weather and seasonality-based demand forecasting
+
+Designed to support smarter replenishment, reduce holding costs, and enable real-time inventory decision-making.
